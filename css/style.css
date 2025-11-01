@@ -77,7 +77,7 @@ body {
     transform: translateY(-2px);
 }
 
-footer {
+footer p {
     text-align: center;
     color: #474747;
     padding: 20px;
