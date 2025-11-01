@@ -76,3 +76,10 @@ body {
     box-shadow: 0 4px 8px rgba(255, 113, 210, 0.5);
     transform: translateY(-2px);
 }
+
+footer {
+    text-align: center;
+    color: #474747;
+    padding: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
