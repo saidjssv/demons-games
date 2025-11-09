@@ -82,6 +82,7 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(255, 0, 238, 0.3);
     transition: 0.6s;
+    cursor: pointer;
 }
 
 @keyframes fondoAnimado {
@@ -101,22 +102,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100%;
-}
-
-.container .game-card button {
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
-    background-color: rgba(255, 0, 238, 0.2);
-    transition: 0.5s;
-    
-}
-
-.container .game-card button:hover {
-    background-color: rgba(255, 0, 238);
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(255, 113, 210, 0.5);
-    transform: translateY(-2px);
+    transition: transform 0.3s ease;
 }
 
 footer p {
